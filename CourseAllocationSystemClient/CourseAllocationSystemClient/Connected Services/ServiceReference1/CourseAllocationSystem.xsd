@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/CourseAllocationSystem" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/CourseAllocationSystem" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="Subject">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Semester" type="xs:int" />
+      <xs:element minOccurs="0" name="SubjectId" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Subject" nillable="true" type="tns:Subject" />
+  <xs:complexType name="AllocatedCourses">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Faculty1Name" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Faculty2Name" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="SubjectName" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="AllocatedCourses" nillable="true" type="tns:AllocatedCourses" />
+  <xs:complexType name="ArrayOfSubject">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Subject" nillable="true" type="tns:Subject" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfSubject" nillable="true" type="tns:ArrayOfSubject" />
+  <xs:complexType name="ArrayOfFacultyChoice">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="FacultyChoice" nillable="true" type="tns:FacultyChoice" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfFacultyChoice" nillable="true" type="tns:ArrayOfFacultyChoice" />
+  <xs:complexType name="FacultyChoice">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Priority1" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Priority2" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Priority3" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Priority4" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Priority5" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="FacultyChoice" nillable="true" type="tns:FacultyChoice" />
+  <xs:complexType name="CourseAllocation">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="FacultyName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Subject1" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Subject2" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CourseAllocation" nillable="true" type="tns:CourseAllocation" />
+  <xs:complexType name="ArrayOfCourseAllocation">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="CourseAllocation" nillable="true" type="tns:CourseAllocation" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfCourseAllocation" nillable="true" type="tns:ArrayOfCourseAllocation" />
+  <xs:complexType name="Faculty">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Experience" type="xs:int" />
+      <xs:element minOccurs="0" name="firstname" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="lastname" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="password" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="username" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Faculty" nillable="true" type="tns:Faculty" />
+</xs:schema>

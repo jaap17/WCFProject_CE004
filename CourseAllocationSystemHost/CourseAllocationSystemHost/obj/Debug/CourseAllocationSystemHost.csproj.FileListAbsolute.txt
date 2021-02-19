@@ -1,0 +1,14 @@
+C:\Users\Jaap17\source\repos\CourseAllocationSystemHost\CourseAllocationSystemHost\bin\Debug\CourseAllocationSystemHost.exe.config
+C:\Users\Jaap17\source\repos\CourseAllocationSystemHost\CourseAllocationSystemHost\bin\Debug\CourseAllocationSystemHost.exe
+C:\Users\Jaap17\source\repos\CourseAllocationSystemHost\CourseAllocationSystemHost\bin\Debug\CourseAllocationSystemHost.pdb
+C:\Users\Jaap17\source\repos\CourseAllocationSystemHost\CourseAllocationSystemHost\bin\Debug\CourseAllocationSystem.dll
+C:\Users\Jaap17\source\repos\CourseAllocationSystemHost\CourseAllocationSystemHost\bin\Debug\CourseAllocationSystem.pdb
+C:\Users\Jaap17\source\repos\CourseAllocationSystemHost\CourseAllocationSystemHost\bin\Debug\CourseAllocationSystem.dll.config
+C:\Users\Jaap17\source\repos\CourseAllocationSystemHost\CourseAllocationSystemHost\obj\Debug\CourseAllocationSystemHost.csprojAssemblyReference.cache
+C:\Users\Jaap17\source\repos\CourseAllocationSystemHost\CourseAllocationSystemHost\obj\Debug\CourseAllocationSystemHost.Form1.resources
+C:\Users\Jaap17\source\repos\CourseAllocationSystemHost\CourseAllocationSystemHost\obj\Debug\CourseAllocationSystemHost.Properties.Resources.resources
+C:\Users\Jaap17\source\repos\CourseAllocationSystemHost\CourseAllocationSystemHost\obj\Debug\CourseAllocationSystemHost.csproj.GenerateResource.cache
+C:\Users\Jaap17\source\repos\CourseAllocationSystemHost\CourseAllocationSystemHost\obj\Debug\CourseAllocationSystemHost.csproj.CoreCompileInputs.cache
+C:\Users\Jaap17\source\repos\CourseAllocationSystemHost\CourseAllocationSystemHost\obj\Debug\CourseAllocationSystemHost.csproj.CopyComplete
+C:\Users\Jaap17\source\repos\CourseAllocationSystemHost\CourseAllocationSystemHost\obj\Debug\CourseAllocationSystemHost.exe
+C:\Users\Jaap17\source\repos\CourseAllocationSystemHost\CourseAllocationSystemHost\obj\Debug\CourseAllocationSystemHost.pdb

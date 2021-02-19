@@ -1,0 +1,7 @@
+C:\Users\Jaap17\source\repos\CourseAllocationSystem\CourseAllocationSystem\bin\Debug\CourseAllocationSystem.dll.config
+C:\Users\Jaap17\source\repos\CourseAllocationSystem\CourseAllocationSystem\bin\Debug\CourseAllocationSystem.dll
+C:\Users\Jaap17\source\repos\CourseAllocationSystem\CourseAllocationSystem\bin\Debug\CourseAllocationSystem.pdb
+C:\Users\Jaap17\source\repos\CourseAllocationSystem\CourseAllocationSystem\obj\Debug\CourseAllocationSystem.csprojAssemblyReference.cache
+C:\Users\Jaap17\source\repos\CourseAllocationSystem\CourseAllocationSystem\obj\Debug\CourseAllocationSystem.csproj.CoreCompileInputs.cache
+C:\Users\Jaap17\source\repos\CourseAllocationSystem\CourseAllocationSystem\obj\Debug\CourseAllocationSystem.dll
+C:\Users\Jaap17\source\repos\CourseAllocationSystem\CourseAllocationSystem\obj\Debug\CourseAllocationSystem.pdb
